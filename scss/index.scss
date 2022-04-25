@@ -1,16 +1,34 @@
-// Option A: Include all of Bootstrap
+// Option B: Include parts of Bootstrap
 
-// Include any default variable overrides here (though functions won't be available)
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+
+// Include any default variable overrides here (functions should be available)
 
 $body-bg: chocolate;
 $body-color: white; 
 $primary: purple;
 
+//@import "../node_modules/bootstrap/scss/variables";
+
+// Create your own map
+//$theme-colors: (
+//  "custom-color": #900
+//);
+
+// Merge the maps
+//$theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
 // Then add additional custom code here
 
-body {
+.pf-menu {
+    background-color: cornflowerblue;
+}
+
+.pf-content {
+    background-color: bisque;
 }
