@@ -10,15 +10,20 @@ $body-bg: chocolate;
 $body-color: white; 
 $primary: purple;
 
-//@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables";
 
 // Create your own map
-//$theme-colors: (
-//  "custom-color": #900
+//$custom-colors: (
+//  "custom-color": cornflowerblue
 //);
+
+$custom-color: rgb(237, 100, 100);
+
 
 // Merge the maps
 //$theme-colors: map-merge($theme-colors, $custom-colors);
+$theme-colors: map-merge($theme-colors, 
+    ( "custom-color": $custom-color ) );
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -26,7 +31,7 @@ $primary: purple;
 // Then add additional custom code here
 
 .pf-menu {
-    background-color: cornflowerblue;
+    //background-color: $custom-color ;
 }
 
 .pf-content {

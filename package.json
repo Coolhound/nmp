@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Coolhound/nmp#readme",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.0.2"
   }
 }
