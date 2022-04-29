@@ -15,8 +15,11 @@
     <style>
     #panorama {
         background-color: antiquewhite;
-        width: 800px;
+        height: 75%;
+        /* Original values
+        width: 500px;
         height: 400px; 
+        */
         /* Would be set by img-fluid class
         max-width: 100%;
         height: auto;
@@ -54,6 +57,7 @@
                 </div>
             </div>
         </div>
+
         <div class="pf-content">
 
             <div>
@@ -79,10 +83,11 @@
                 <a class="btn btn-primary" href="http://wikipedia.org"> Wikipedia... </a> 
             </div>
 
+            <!-- <div class="d-flex justify-content-evenly"> -->
             <div class="d-flex">
                 
-                <a id="my-portfolio"></a>
-                <div class="card">
+                <!-- <a id="my-portfolio"></a> -->
+                <div class="card w-50">
                     <img class="img-fluid" src="images/netmatters.png">
                     <div class="card-body">
                         <strong class="card-title">Homepage Reflection</strong>
@@ -92,7 +97,7 @@
                     </div>
                 </div> 
 
-                <div class="card">
+                <div class="card w-25">
                     <div id="panorama"></div>
                     <div class="card-body">
                         <strong class="card-title">Comming Soon</strong>
@@ -101,8 +106,8 @@
                         <a class="btn btn-primary" href="">Github</a>
                     </div>
                 </div>
-
-                <div class="card">
+<!--
+                <div class="card w-25">
                     <img class="img-fluid" src="images/pexels-jessica-lewis-creative-992818_edited.jpg" alt="">
                     <div class="card-body">
                         <strong class="card-title">Comming Soon</strong>
@@ -111,7 +116,7 @@
                         <a class="btn btn-primary" href="">Github</a>
                     </div>
                 </div>
-
+-->
             </div>    
 
             <div>
@@ -164,8 +169,8 @@
     <script>
         pannellum.viewer('panorama', {
             "type": "equirectangular",
-            "panorama": "https://pannellum.org/images/alma.jpg",
-            //"panorama": "images/"
+            //"panorama": "https://pannellum.org/images/alma.jpg",
+            "panorama": "https://pannellum.org/images/jfk.jpg",
             "autoRotate": -2,
             "autoLoad": true
         });
