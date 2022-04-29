@@ -7,7 +7,23 @@
 
     <link rel="stylesheet" href="css/index.css">
 
+    <link rel="stylesheet" href="node_modules/pannellum/build/pannellum.css">
+    <script type="text/javascript" src="./node_modules/pannellum/build/pannellum.js"></script>
+    
     <title>Portfolio</title>
+
+    <style>
+    #panorama {
+        background-color: antiquewhite;
+        width: 800px;
+        height: 400px; 
+        /* Would be set by img-fluid class
+        max-width: 100%;
+        height: auto;
+        */
+    }
+    </style>
+
 </head>
 <body>
     
@@ -67,7 +83,7 @@
                 
                 <a id="my-portfolio"></a>
                 <div class="card">
-                    <!-- <img src="images/netmatters.png"> -->
+                    <img class="img-fluid" src="images/netmatters.png">
                     <div class="card-body">
                         <strong class="card-title">Homepage Reflection</strong>
                         <p class="card-text">The Netmatters home page.....</p>
@@ -77,6 +93,7 @@
                 </div> 
 
                 <div class="card">
+                    <div id="panorama"></div>
                     <div class="card-body">
                         <strong class="card-title">Comming Soon</strong>
                         <p class="card-text">Coming soon.....</p>
@@ -86,7 +103,7 @@
                 </div>
 
                 <div class="card">
-                    <img src="images/pexels-jessica-lewis-creative-992818_edited.jpg" alt="">
+                    <img class="img-fluid" src="images/pexels-jessica-lewis-creative-992818_edited.jpg" alt="">
                     <div class="card-body">
                         <strong class="card-title">Comming Soon</strong>
                         <p class="card-text">Coming soon.....</p>
@@ -143,6 +160,16 @@
         </div>
 
     </div>
+
+    <script>
+        pannellum.viewer('panorama', {
+            "type": "equirectangular",
+            "panorama": "https://pannellum.org/images/alma.jpg",
+            //"panorama": "images/"
+            "autoRotate": -2,
+            "autoLoad": true
+        });
+        </script>
 
 </body>
 </html>
