@@ -34,6 +34,16 @@ $theme-colors: map-merge($theme-colors,
     //background-color: $custom-color ;
 }
 
+.pf-menu-items {
+    width: 15vw;
+}  
+
 .pf-content {
     background-color: bisque;
+}
+
+.pf-hero-image {
+    height: 100vh; 
+    width: calc(100vw - 15vw - 20px); 
+    object-fit: cover;
 }
