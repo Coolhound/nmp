@@ -12711,20 +12711,26 @@ fieldset:disabled .btn {
 }
 
 /* line 41, D:/Projects/Netmatters/nmp/scss/index.scss */
-.pf-menu-items {
-  width: 15vw;
-}
-
-/* line 45, D:/Projects/Netmatters/nmp/scss/index.scss */
 .pf-content {
   background-color: bisque;
 }
 
-/* line 49, D:/Projects/Netmatters/nmp/scss/index.scss */
+/* line 45, D:/Projects/Netmatters/nmp/scss/index.scss */
 .pf-hero-image {
+  width: calc(100vw - 20px);
   height: 100vh;
-  width: calc(100vw - 15vw - 20px);
   object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  /* line 53, D:/Projects/Netmatters/nmp/scss/index.scss */
+  .pf-hero-image {
+    width: calc(100vw - 15vw - 20px);
+  }
+  /* line 57, D:/Projects/Netmatters/nmp/scss/index.scss */
+  .pf-menu-items {
+    width: 15vw;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

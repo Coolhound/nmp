@@ -38,16 +38,22 @@ $theme-colors: map-merge($theme-colors,
     font-size: 64px;
 }
 
-.pf-menu-items {
-    width: 15vw;
-}  
-
 .pf-content {
     background-color: bisque;
 }
 
 .pf-hero-image {
+    width: calc(100vw - 20px); // Extra 20 pixels for scroll bar
     height: 100vh; 
-    width: calc(100vw - 15vw - 20px); // Extra 20 pixels for scroll bar
     object-fit: cover;
+}
+
+@media (min-width: 992px) {
+    .pf-hero-image {
+        width: calc(100vw - 15vw - 20px); // Extra 20 pixels for scroll bar
+    }
+    
+    .pf-menu-items {
+        width: 15vw;
+    }  
 }
