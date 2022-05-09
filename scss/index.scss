@@ -57,3 +57,11 @@ $theme-colors: map-merge($theme-colors,
         width: 15vw;
     }  
 }
+
+@media (min-width: 768x) {
+    .pf-portfolio-project {
+        background-color: black;
+        //width: ;
+    }
+}
+

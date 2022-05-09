@@ -12723,13 +12723,20 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 992px) {
-  /* line 53, D:/Projects/Netmatters/nmp/scss/index.scss */
+  /* line 52, D:/Projects/Netmatters/nmp/scss/index.scss */
   .pf-hero-image {
     width: calc(100vw - 15vw - 20px);
   }
-  /* line 57, D:/Projects/Netmatters/nmp/scss/index.scss */
+  /* line 56, D:/Projects/Netmatters/nmp/scss/index.scss */
   .pf-menu-items {
     width: 15vw;
+  }
+}
+
+@media (min-width: 768x) {
+  /* line 62, D:/Projects/Netmatters/nmp/scss/index.scss */
+  .pf-portfolio-project {
+    background-color: black;
   }
 }
 
