@@ -12731,13 +12731,20 @@ fieldset:disabled .btn {
   .pf-menu-items {
     width: 15vw;
   }
-}
-
-@media (min-width: 768x) {
-  /* line 62, D:/Projects/Netmatters/nmp/scss/index.scss */
+  /* line 60, D:/Projects/Netmatters/nmp/scss/index.scss */
   .pf-portfolio-project {
     background-color: black;
+    width: 50%;
   }
 }
+
+/*
+@media (min-width: 768x) {
+    .pf-portfolio-project {
+        background-color: black;
+        //width: ;
+    }
+}
+*/
 
 /*# sourceMappingURL=index.css.map */
