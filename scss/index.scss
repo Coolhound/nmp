@@ -57,8 +57,6 @@ $theme-colors: map-merge($theme-colors,
     width: calc(100vw - 20px); // Extra 20 pixels for scroll bar
     height: 100vh;  
     object-fit: cover;
-
-    filter: brightness(20%);
 }
 
 @media (min-width: 768px) {
