@@ -12724,30 +12724,34 @@ fieldset:disabled .btn {
 
 @media (min-width: 768px) {
   /* line 52, D:/Projects/Netmatters/nmp/scss/index.scss */
-  .pf-portfolio-project {
+  .pf-portfolio-project-nettmatters {
     background-color: olive;
+    width: 50%;
+  }
+  /* line 57, D:/Projects/Netmatters/nmp/scss/index.scss */
+  .pf-portfolio-project-java, .pf-portfolio-project-php {
+    width: 25%;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 60, D:/Projects/Netmatters/nmp/scss/index.scss */
+  /* line 64, D:/Projects/Netmatters/nmp/scss/index.scss */
   .pf-hero-image {
     width: calc(100vw - 15vw - 20px);
   }
-  /* line 64, D:/Projects/Netmatters/nmp/scss/index.scss */
+  /* line 68, D:/Projects/Netmatters/nmp/scss/index.scss */
   .pf-menu-items {
     width: 15vw;
   }
-  /* line 68, D:/Projects/Netmatters/nmp/scss/index.scss */
-  .pf-portfolio-project {
+  /* line 72, D:/Projects/Netmatters/nmp/scss/index.scss */
+  .pf-portfolio-project-nettmatters {
     background-color: black;
-    width: 50%;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 75, D:/Projects/Netmatters/nmp/scss/index.scss */
-  .pf-portfolio-project {
+  /* line 78, D:/Projects/Netmatters/nmp/scss/index.scss */
+  .pf-portfolio-project-nettmatters {
     background-color: purple;
   }
 }

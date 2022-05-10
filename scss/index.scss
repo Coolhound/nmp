@@ -49,9 +49,13 @@ $theme-colors: map-merge($theme-colors,
 }
 
 @media (min-width: 768px) {
-    .pf-portfolio-project {
+    .pf-portfolio-project-nettmatters {
         background-color: olive;
-        //width: ;
+        width: 50%;
+    }
+
+    .pf-portfolio-project-java, .pf-portfolio-project-php {
+        width: 25%;
     }
 }
 
@@ -65,14 +69,13 @@ $theme-colors: map-merge($theme-colors,
         width: 15vw;
     }  
 
-    .pf-portfolio-project {
+    .pf-portfolio-project-nettmatters {
         background-color: black;
-        width: 50%;
     }
 }
 
 @media (min-width: 1200px) {
-    .pf-portfolio-project {
+    .pf-portfolio-project-nettmatters {
         background-color: purple;
     }
 }
