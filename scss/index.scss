@@ -9,6 +9,7 @@
 $body-bg: chocolate;
 //$body-color: white; 
 $primary: purple;
+$dark: #361738;
 
 @import "../node_modules/bootstrap/scss/variables";
 
@@ -30,9 +31,9 @@ $theme-colors: map-merge($theme-colors,
 
 // Then add additional custom code here
 
-.pf-menu {
-    //background-color: $custom-color ;
-}
+//.pf-menu {
+//    //background-color: $custom-color ;
+//}
 
 .pf-j-logo {
     font-size: 64px;
@@ -43,6 +44,13 @@ $theme-colors: map-merge($theme-colors,
 }
 
 .pf-hero-image {
+    //background-image: linear-gradient ( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/pexels-anthony-794494_edited.jpg");
+    //background-image: url("../images/pexels-anthony-794494.jpg");
+    //background-image: linear-gradient ( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/beach_hut.jpg");
+    //background-image: linear-gradient ( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/pexels-jessica-lewis-creative-992818.jpg");
+
+    //background-repeat: no-repeat;
+
     width: calc(100vw - 20px); // Extra 20 pixels for scroll bar
     height: 100vh; 
     object-fit: cover;

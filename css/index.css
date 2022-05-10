@@ -26,7 +26,7 @@
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
-  --bs-dark: #212529;
+  --bs-dark: #361738;
   --bs-custom-color: #ed6464;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -2301,15 +2301,15 @@ progress {
 
 /* line 3, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_table-variants.scss */
 .table-dark {
-  --bs-table-bg: #212529;
-  --bs-table-striped-bg: #2c3034;
+  --bs-table-bg: #361738;
+  --bs-table-striped-bg: #402342;
   --bs-table-striped-color: #fff;
-  --bs-table-active-bg: #373b3e;
+  --bs-table-active-bg: #4a2e4c;
   --bs-table-active-color: #fff;
-  --bs-table-hover-bg: #323539;
+  --bs-table-hover-bg: #452847;
   --bs-table-hover-color: #fff;
   color: #fff;
-  border-color: #373b3e;
+  border-color: #4a2e4c;
 }
 
 /* line 146, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/_tables.scss */
@@ -3689,23 +3689,23 @@ fieldset:disabled .btn {
 /* line 60, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/_buttons.scss */
 .btn-dark {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: #361738;
+  border-color: #361738;
 }
 
 /* line 26, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-dark:hover {
   color: #fff;
-  background-color: #1c1f23;
-  border-color: #1a1e21;
+  background-color: #2e1430;
+  border-color: #2b122d;
 }
 
 /* line 32, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-check:focus + .btn-dark, .btn-dark:focus {
   color: #fff;
-  background-color: #1c1f23;
-  border-color: #1a1e21;
-  box-shadow: 0 0 0 0.25rem rgba(66, 70, 73, 0.5);
+  background-color: #2e1430;
+  border-color: #2b122d;
+  box-shadow: 0 0 0 0.25rem rgba(84, 58, 86, 0.5);
 }
 
 /* line 45, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_buttons.scss */
@@ -3713,22 +3713,22 @@ fieldset:disabled .btn {
 .btn-check:active + .btn-dark, .btn-dark:active, .btn-dark.active,
 .show > .btn-dark.dropdown-toggle {
   color: #fff;
-  background-color: #1a1e21;
-  border-color: #191c1f;
+  background-color: #2b122d;
+  border-color: #29112a;
 }
 
 /* line 56, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-check:checked + .btn-dark:focus,
 .btn-check:active + .btn-dark:focus, .btn-dark:active:focus, .btn-dark.active:focus,
 .show > .btn-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(66, 70, 73, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(84, 58, 86, 0.5);
 }
 
 /* line 66, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-dark:disabled, .btn-dark.disabled {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: #361738;
+  border-color: #361738;
 }
 
 /* line 60, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/_buttons.scss */
@@ -4044,39 +4044,39 @@ fieldset:disabled .btn {
 
 /* line 66, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/_buttons.scss */
 .btn-outline-dark {
-  color: #212529;
-  border-color: #212529;
+  color: #361738;
+  border-color: #361738;
 }
 
 /* line 88, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: #361738;
+  border-color: #361738;
 }
 
 /* line 94, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-check:focus + .btn-outline-dark, .btn-outline-dark:focus {
-  box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(54, 23, 56, 0.5);
 }
 
 /* line 99, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-check:checked + .btn-outline-dark,
 .btn-check:active + .btn-outline-dark, .btn-outline-dark:active, .btn-outline-dark.active, .btn-outline-dark.dropdown-toggle.show {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: #361738;
+  border-color: #361738;
 }
 
 /* line 108, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-check:checked + .btn-outline-dark:focus,
 .btn-check:active + .btn-outline-dark:focus, .btn-outline-dark:active:focus, .btn-outline-dark.active:focus, .btn-outline-dark.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(54, 23, 56, 0.5);
 }
 
 /* line 118, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-outline-dark:disabled, .btn-outline-dark.disabled {
-  color: #212529;
+  color: #361738;
   background-color: transparent;
 }
 
@@ -5894,14 +5894,14 @@ fieldset:disabled .btn {
 
 /* line 53, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/_alert.scss */
 .alert-dark {
-  color: #141619;
-  background-color: #d3d3d4;
-  border-color: #bcbebf;
+  color: #200e22;
+  background-color: #d7d1d7;
+  border-color: #c3b9c3;
 }
 
 /* line 7, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_alert.scss */
 .alert-dark .alert-link {
-  color: #101214;
+  color: #1a0b1b;
 }
 
 /* line 53, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/_alert.scss */
@@ -6400,21 +6400,21 @@ fieldset:disabled .btn {
 
 /* line 5, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_list-group.scss */
 .list-group-item-dark {
-  color: #141619;
-  background-color: #d3d3d4;
+  color: #200e22;
+  background-color: #d7d1d7;
 }
 
 /* line 10, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_list-group.scss */
 .list-group-item-dark.list-group-item-action:hover, .list-group-item-dark.list-group-item-action:focus {
-  color: #141619;
-  background-color: #bebebf;
+  color: #200e22;
+  background-color: #c2bcc2;
 }
 
 /* line 16, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_list-group.scss */
 .list-group-item-dark.list-group-item-action.active {
   color: #fff;
-  background-color: #141619;
-  border-color: #141619;
+  background-color: #200e22;
+  border-color: #200e22;
 }
 
 /* line 5, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_list-group.scss */
@@ -7663,12 +7663,12 @@ fieldset:disabled .btn {
 
 /* line 2, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/helpers/_colored-links.scss */
 .link-dark {
-  color: #212529;
+  color: #361738;
 }
 
 /* line 6, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/helpers/_colored-links.scss */
 .link-dark:hover, .link-dark:focus {
-  color: #1a1e21;
+  color: #2b122d;
 }
 
 /* line 2, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/helpers/_colored-links.scss */
@@ -8147,7 +8147,7 @@ fieldset:disabled .btn {
 
 /* line 50, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .border-dark {
-  border-color: #212529 !important;
+  border-color: #361738 !important;
 }
 
 /* line 50, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_utilities.scss */
@@ -9181,7 +9181,7 @@ fieldset:disabled .btn {
 
 /* line 50, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .text-dark {
-  color: #212529 !important;
+  color: #361738 !important;
 }
 
 /* line 50, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_utilities.scss */
@@ -9256,7 +9256,7 @@ fieldset:disabled .btn {
 
 /* line 50, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .bg-dark {
-  background-color: #212529 !important;
+  background-color: #361738 !important;
 }
 
 /* line 50, D:/Projects/Netmatters/nmp/node_modules/bootstrap/scss/mixins/_utilities.scss */
@@ -12705,17 +12705,17 @@ fieldset:disabled .btn {
   }
 }
 
-/* line 37, D:/Projects/Netmatters/nmp/scss/index.scss */
+/* line 38, D:/Projects/Netmatters/nmp/scss/index.scss */
 .pf-j-logo {
   font-size: 64px;
 }
 
-/* line 41, D:/Projects/Netmatters/nmp/scss/index.scss */
+/* line 42, D:/Projects/Netmatters/nmp/scss/index.scss */
 .pf-content {
   background-color: bisque;
 }
 
-/* line 45, D:/Projects/Netmatters/nmp/scss/index.scss */
+/* line 46, D:/Projects/Netmatters/nmp/scss/index.scss */
 .pf-hero-image {
   width: calc(100vw - 20px);
   height: 100vh;
@@ -12723,34 +12723,34 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 768px) {
-  /* line 52, D:/Projects/Netmatters/nmp/scss/index.scss */
+  /* line 60, D:/Projects/Netmatters/nmp/scss/index.scss */
   .pf-portfolio-project-nettmatters {
     background-color: olive;
     width: 50%;
   }
-  /* line 57, D:/Projects/Netmatters/nmp/scss/index.scss */
+  /* line 65, D:/Projects/Netmatters/nmp/scss/index.scss */
   .pf-portfolio-project-java, .pf-portfolio-project-php {
     width: 25%;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 64, D:/Projects/Netmatters/nmp/scss/index.scss */
+  /* line 72, D:/Projects/Netmatters/nmp/scss/index.scss */
   .pf-hero-image {
     width: calc(100vw - 15vw - 20px);
   }
-  /* line 68, D:/Projects/Netmatters/nmp/scss/index.scss */
+  /* line 76, D:/Projects/Netmatters/nmp/scss/index.scss */
   .pf-menu-items {
     width: 15vw;
   }
-  /* line 72, D:/Projects/Netmatters/nmp/scss/index.scss */
+  /* line 80, D:/Projects/Netmatters/nmp/scss/index.scss */
   .pf-portfolio-project-nettmatters {
     background-color: black;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 78, D:/Projects/Netmatters/nmp/scss/index.scss */
+  /* line 86, D:/Projects/Netmatters/nmp/scss/index.scss */
   .pf-portfolio-project-nettmatters {
     background-color: purple;
   }
