@@ -26,7 +26,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #361738;
-  --bs-custom-color: bisque;
+  --bs-custom-color: #A48E99;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -3138,41 +3138,41 @@ fieldset:disabled .btn {
 
 .btn-custom-color {
   color: #000;
-  background-color: bisque;
-  border-color: bisque;
+  background-color: #A48E99;
+  border-color: #A48E99;
 }
 
 .btn-custom-color:hover {
   color: #000;
-  background-color: #ffe8cd;
-  border-color: #ffe7ca;
+  background-color: #b29fa8;
+  border-color: #ad99a3;
 }
 
 .btn-check:focus + .btn-custom-color, .btn-custom-color:focus {
   color: #000;
-  background-color: #ffe8cd;
-  border-color: #ffe7ca;
-  box-shadow: 0 0 0 0.25rem rgba(217, 194, 167, 0.5);
+  background-color: #b29fa8;
+  border-color: #ad99a3;
+  box-shadow: 0 0 0 0.25rem rgba(139, 121, 130, 0.5);
 }
 
 .btn-check:checked + .btn-custom-color,
 .btn-check:active + .btn-custom-color, .btn-custom-color:active, .btn-custom-color.active,
 .show > .btn-custom-color.dropdown-toggle {
   color: #000;
-  background-color: #ffe9d0;
-  border-color: #ffe7ca;
+  background-color: #b6a5ad;
+  border-color: #ad99a3;
 }
 
 .btn-check:checked + .btn-custom-color:focus,
 .btn-check:active + .btn-custom-color:focus, .btn-custom-color:active:focus, .btn-custom-color.active:focus,
 .show > .btn-custom-color.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(217, 194, 167, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(139, 121, 130, 0.5);
 }
 
 .btn-custom-color:disabled, .btn-custom-color.disabled {
   color: #000;
-  background-color: bisque;
-  border-color: bisque;
+  background-color: #A48E99;
+  border-color: #A48E99;
 }
 
 .btn-outline-primary {
@@ -3432,34 +3432,34 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-custom-color {
-  color: bisque;
-  border-color: bisque;
+  color: #A48E99;
+  border-color: #A48E99;
 }
 
 .btn-outline-custom-color:hover {
   color: #000;
-  background-color: bisque;
-  border-color: bisque;
+  background-color: #A48E99;
+  border-color: #A48E99;
 }
 
 .btn-check:focus + .btn-outline-custom-color, .btn-outline-custom-color:focus {
-  box-shadow: 0 0 0 0.25rem rgba(255, 228, 196, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(164, 142, 153, 0.5);
 }
 
 .btn-check:checked + .btn-outline-custom-color,
 .btn-check:active + .btn-outline-custom-color, .btn-outline-custom-color:active, .btn-outline-custom-color.active, .btn-outline-custom-color.dropdown-toggle.show {
   color: #000;
-  background-color: bisque;
-  border-color: bisque;
+  background-color: #A48E99;
+  border-color: #A48E99;
 }
 
 .btn-check:checked + .btn-outline-custom-color:focus,
 .btn-check:active + .btn-outline-custom-color:focus, .btn-outline-custom-color:active:focus, .btn-outline-custom-color.active:focus, .btn-outline-custom-color.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(255, 228, 196, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(164, 142, 153, 0.5);
 }
 
 .btn-outline-custom-color:disabled, .btn-outline-custom-color.disabled {
-  color: bisque;
+  color: #A48E99;
   background-color: transparent;
 }
 
@@ -4968,13 +4968,13 @@ fieldset:disabled .btn {
 }
 
 .alert-custom-color {
-  color: #665b4e;
-  background-color: #fffaf3;
-  border-color: #fff7ed;
+  color: #62555c;
+  background-color: #ede8eb;
+  border-color: #e4dde0;
 }
 
 .alert-custom-color .alert-link {
-  color: #52493e;
+  color: #4e444a;
 }
 
 @keyframes progress-bar-stripes {
@@ -5397,19 +5397,19 @@ fieldset:disabled .btn {
 }
 
 .list-group-item-custom-color {
-  color: #665b4e;
-  background-color: #fffaf3;
+  color: #62555c;
+  background-color: #ede8eb;
 }
 
 .list-group-item-custom-color.list-group-item-action:hover, .list-group-item-custom-color.list-group-item-action:focus {
-  color: #665b4e;
-  background-color: #e6e1db;
+  color: #62555c;
+  background-color: #d5d1d4;
 }
 
 .list-group-item-custom-color.list-group-item-action.active {
   color: #fff;
-  background-color: #665b4e;
-  border-color: #665b4e;
+  background-color: #62555c;
+  border-color: #62555c;
 }
 
 .btn-close {
@@ -6481,11 +6481,11 @@ fieldset:disabled .btn {
 }
 
 .link-custom-color {
-  color: bisque;
+  color: #A48E99;
 }
 
 .link-custom-color:hover, .link-custom-color:focus {
-  color: #ffe9d0;
+  color: #b6a5ad;
 }
 
 .ratio {
@@ -6875,7 +6875,7 @@ fieldset:disabled .btn {
 }
 
 .border-custom-color {
-  border-color: bisque !important;
+  border-color: #A48E99 !important;
 }
 
 .border-white {
@@ -7708,7 +7708,7 @@ fieldset:disabled .btn {
 }
 
 .text-custom-color {
-  color: bisque !important;
+  color: #A48E99 !important;
 }
 
 .text-white {
@@ -7768,7 +7768,7 @@ fieldset:disabled .btn {
 }
 
 .bg-custom-color {
-  background-color: bisque !important;
+  background-color: #A48E99 !important;
 }
 
 .bg-body {
@@ -10401,7 +10401,7 @@ fieldset:disabled .btn {
 }
 
 .pf-content {
-  background-color: bisque;
+  background-color: #A48E99;
 }
 
 .pf-hero-image {
@@ -10434,5 +10434,6 @@ fieldset:disabled .btn {
 @media (min-width: 1200px) {
   .pf-portfolio-project-nettmatters {
     color: #361738;
+    background-color: bisque;
   }
 }

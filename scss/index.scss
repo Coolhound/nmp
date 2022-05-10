@@ -18,9 +18,13 @@ $dark: #361738;
 //  "custom-color": cornflowerblue
 //);
 
-//$custom-color: rgb(237, 100, 100);
-$custom-color: bisque;  
+$custom-color1:rgb(237, 100, 100);
 
+$custom-color2:bisque;  
+$custom-color3:#837465;
+$custom-color4:#749196;
+
+$custom-color:#A48E99;
 
 // Merge the maps
 //$theme-colors: map-merge($theme-colors, $custom-colors);
@@ -90,6 +94,7 @@ $pf-menu-width: 200px;
 
 @media (min-width: 1200px) {
     .pf-portfolio-project-nettmatters {
-        color: $dark;      
+        color: $dark;     
+        background-color: bisque; 
     }
 }
