@@ -12722,29 +12722,34 @@ fieldset:disabled .btn {
   object-fit: cover;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   /* line 52, D:/Projects/Netmatters/nmp/scss/index.scss */
+  .pf-portfolio-project {
+    background-color: olive;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 60, D:/Projects/Netmatters/nmp/scss/index.scss */
   .pf-hero-image {
     width: calc(100vw - 15vw - 20px);
   }
-  /* line 56, D:/Projects/Netmatters/nmp/scss/index.scss */
+  /* line 64, D:/Projects/Netmatters/nmp/scss/index.scss */
   .pf-menu-items {
     width: 15vw;
   }
-  /* line 60, D:/Projects/Netmatters/nmp/scss/index.scss */
+  /* line 68, D:/Projects/Netmatters/nmp/scss/index.scss */
   .pf-portfolio-project {
     background-color: black;
     width: 50%;
   }
 }
 
-/*
-@media (min-width: 768x) {
-    .pf-portfolio-project {
-        background-color: black;
-        //width: ;
-    }
+@media (min-width: 1200px) {
+  /* line 75, D:/Projects/Netmatters/nmp/scss/index.scss */
+  .pf-portfolio-project {
+    background-color: purple;
+  }
 }
-*/
 
 /*# sourceMappingURL=index.css.map */

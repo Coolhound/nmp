@@ -48,7 +48,15 @@ $theme-colors: map-merge($theme-colors,
     object-fit: cover;
 }
 
+@media (min-width: 768px) {
+    .pf-portfolio-project {
+        background-color: olive;
+        //width: ;
+    }
+}
+
 @media (min-width: 992px) {
+//@media (min-width: 768px) {
     .pf-hero-image {
         width: calc(100vw - 15vw - 20px); // Extra 20 pixels for scroll bar
     }
@@ -63,11 +71,9 @@ $theme-colors: map-merge($theme-colors,
     }
 }
 
-/*
-@media (min-width: 768x) {
+@media (min-width: 1200px) {
     .pf-portfolio-project {
-        background-color: black;
-        //width: ;
+        background-color: purple;
     }
 }
-*/
+
