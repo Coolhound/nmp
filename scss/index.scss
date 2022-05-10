@@ -46,14 +46,19 @@ $theme-colors: map-merge($theme-colors,
 .pf-hero-image {
     //background-image: linear-gradient ( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/pexels-anthony-794494_edited.jpg");
     //background-image: url("../images/pexels-anthony-794494.jpg");
+    //background-image: linear-gradient(red, orange), url("../images/pexels-anthony-794494.jpg");
+    //background-image: linear-gradient(red, orange), url("../images/beach_hut.jpg");
     //background-image: linear-gradient ( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/beach_hut.jpg");
+    //background-image: linear-gradient ( rgba(255,0,0,0),rgba(255,0,0,1) ), url("../images/beach_hut.jpg");
     //background-image: linear-gradient ( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/pexels-jessica-lewis-creative-992818.jpg");
 
     //background-repeat: no-repeat;
 
     width: calc(100vw - 20px); // Extra 20 pixels for scroll bar
-    height: 100vh; 
+    height: 100vh;  
     object-fit: cover;
+
+    filter: brightness(20%);
 }
 
 @media (min-width: 768px) {
