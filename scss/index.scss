@@ -59,6 +59,10 @@ $theme-colors: map-merge($theme-colors,
     object-fit: cover;
 }
 
+// Fix width of side menu on wider viewports
+$pf-menu-width: 200px;
+//$pf-menu-width: 15vw;
+
 @media (min-width: 768px) {
     .pf-portfolio-project-nettmatters {
         background-color: olive;
@@ -71,13 +75,12 @@ $theme-colors: map-merge($theme-colors,
 }
 
 @media (min-width: 992px) {
-//@media (min-width: 768px) {
     .pf-hero-image {
-        width: calc(100vw - 15vw - 20px); // Extra 20 pixels for scroll bar
+        width: calc(100vw - #{$pf-menu-width} - 20px); // Extra 20 pixels for scroll bar
     }
     
     .pf-menu-items {
-        width: 15vw;
+        width: #{$pf-menu-width};
     }  
 
     .pf-portfolio-project-nettmatters {
@@ -90,4 +93,3 @@ $theme-colors: map-merge($theme-colors,
         background-color: purple;
     }
 }
-
