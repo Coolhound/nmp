@@ -41,7 +41,7 @@ $theme-colors: map-merge($theme-colors,
 }
 
 .pf-content {
-    background-color: bisque;
+    background-color: $custom-color;
 }
 
 .pf-hero-image {
