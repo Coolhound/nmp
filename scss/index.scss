@@ -64,6 +64,18 @@ $theme-colors: map-merge($theme-colors,
     object-fit: cover;
 }
 
+.pf-portfolio-project-nettmatters {
+    background-color: bisque; 
+}
+
+.pf-portfolio-project-java {
+    background-color: #8d8c95; 
+}
+
+.pf-portfolio-project-php {
+    background-color: #839b76; 
+}
+
 // Fix width of side menu on wider viewports
 $pf-menu-width: 200px;
 //$pf-menu-width: 15vw;
@@ -96,6 +108,5 @@ $pf-menu-width: 200px;
 @media (min-width: 1200px) {
     .pf-portfolio-project-nettmatters {
         color: $dark;     
-        background-color: bisque; 
     }
 }

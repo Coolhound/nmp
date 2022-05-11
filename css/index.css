@@ -10410,6 +10410,18 @@ fieldset:disabled .btn {
   object-fit: cover;
 }
 
+.pf-portfolio-project-nettmatters {
+  background-color: bisque;
+}
+
+.pf-portfolio-project-java {
+  background-color: #8d8c95;
+}
+
+.pf-portfolio-project-php {
+  background-color: #839b76;
+}
+
 @media (min-width: 768px) {
   .pf-portfolio-project-nettmatters {
     width: 50%;
@@ -10434,6 +10446,5 @@ fieldset:disabled .btn {
 @media (min-width: 1200px) {
   .pf-portfolio-project-nettmatters {
     color: #361738;
-    background-color: bisque;
   }
 }
