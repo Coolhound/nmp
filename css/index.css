@@ -10421,7 +10421,7 @@ fieldset:disabled .btn {
 
 @media (min-width: 992px) {
   .pf-hero-image {
-    width: calc(100vw - 200px - 20px);
+    width: calc(100vw - 200px - 30px);
   }
   .pf-menu-items {
     width: 200px;
