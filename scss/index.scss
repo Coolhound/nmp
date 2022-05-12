@@ -9,6 +9,7 @@
 $body-bg: chocolate;
 //$body-color: white; 
 $primary: purple;
+$warning: #88bbc0;   
 $dark: #361738;
 
 @import "../node_modules/bootstrap/scss/variables";
@@ -18,13 +19,28 @@ $dark: #361738;
 //  "custom-color": cornflowerblue
 //);
 
+
+$one: #bacbd4;
+$two: #90b1c5;
+$three: #9abac4;
+$four: #d8dde0;
+$five: #88bbc0;
+
+
+$ruber: #C94B70ff;
+$cinnamon-satin: #C6748Bff;
+$crimson-ua: #991729ff;
+$magenta-haze: #A14178ff;
+$lavender-blush: #EDDCE2ff;
+
 $custom-color1:rgb(237, 100, 100);
 
 $custom-color2:bisque;  
 $custom-color3:#837465;
 $custom-color4:#749196;
 
-$custom-color:#A48E99;
+//$custom-color:#A48E99;
+$custom-color:#C8637B;
 
 // Merge the maps
 //$theme-colors: map-merge($theme-colors, $custom-colors);
@@ -65,19 +81,21 @@ $theme-colors: map-merge($theme-colors,
 }
 
 .pf-portfolio-project-nettmatters {
-    background-color: bisque; 
+    background-color: #69ABBC; 
 }
 
 .pf-portfolio-project-java {
-    background-color: #8d8c95; 
+    //background-color: #8d8c95; 
+    background-color:#A18399;
 }
 
 .pf-portfolio-project-php {
-    background-color: #839b76; 
+    //background-color: #839b76; 
+    background-color:#8892BF;
 }
 
 // Fix width of side menu on wider viewports
-$pf-menu-width: 200px;
+$pf-menu-width: 260px;
 //$pf-menu-width: 15vw;
 
 @media (min-width: 768px) {
