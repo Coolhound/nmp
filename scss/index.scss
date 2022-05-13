@@ -45,7 +45,10 @@ $custom-color:#C8637B;
 // Merge the maps
 //$theme-colors: map-merge($theme-colors, $custom-colors);
 $theme-colors: map-merge($theme-colors, 
-    ( "custom-color": $custom-color ) );
+
+    ( "custom-color": $custom-color, "crimson": $crimson-ua) 
+    
+    );
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -81,12 +84,14 @@ $theme-colors: map-merge($theme-colors,
 }
 
 .pf-portfolio-project-nettmatters {
-    background-color: #69ABBC; 
+    //background-color: #69ABBC; 
+    background-color: white;
 }
 
 .pf-portfolio-project-java {
     //background-color: #8d8c95; 
     background-color:#A18399;
+    background-color:#c288a7;
 }
 
 .pf-portfolio-project-php {
