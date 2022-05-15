@@ -100,8 +100,9 @@ $theme-colors: map-merge($theme-colors,
 }
 
 // Fix width of side menu on wider viewports
-$pf-menu-width: 260px;
 //$pf-menu-width: 15vw;
+//$pf-menu-width: 260px;
+$pf-menu-width: 250px;
 
 @media (min-width: 768px) {
     .pf-portfolio-project-nettmatters {

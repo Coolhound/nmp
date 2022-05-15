@@ -10552,10 +10552,10 @@ fieldset:disabled .btn {
 
 @media (min-width: 992px) {
   .pf-hero-image {
-    width: calc(100vw - 260px - 30px);
+    width: calc(100vw - 250px - 30px);
   }
   .pf-menu-items {
-    width: 260px;
+    width: 250px;
   }
   .pf-portfolio-project-nettmatters {
     color: purple;
