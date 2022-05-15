@@ -10514,12 +10514,21 @@ fieldset:disabled .btn {
   }
 }
 
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
 .pf-j-logo {
   font-size: 64px;
+  font-family: 'Oxygen Mono', monospace;
 }
 
 .pf-content {
   background-color: #C8637B;
+}
+
+.pf-hero-text {
+  font-family: 'Oxygen Mono', monospace;
 }
 
 .pf-hero-image {

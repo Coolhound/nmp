@@ -53,6 +53,11 @@ $theme-colors: map-merge($theme-colors,
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
+body {
+    font-family: 'Oxygen', sans-serif;
+} 
+
+
 // Then add additional custom code here
 
 //.pf-menu {
@@ -61,10 +66,15 @@ $theme-colors: map-merge($theme-colors,
 
 .pf-j-logo {
     font-size: 64px;
+    font-family: 'Oxygen Mono', monospace;
 }
 
 .pf-content {
     background-color: $custom-color;
+}
+
+.pf-hero-text {
+    font-family: 'Oxygen Mono', monospace;
 }
 
 .pf-hero-image {
