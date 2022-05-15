@@ -117,7 +117,8 @@ $pf-menu-width: 250px;
 @media (min-width: 992px) {
     .pf-hero-image {
         //width: calc(100vw - #{$pf-menu-width} - 20px); // Extra 20 pixels for scroll bar
-        width: calc(100vw - #{$pf-menu-width} - 30px); // Extra 20 pixels for scroll bar
+        //width: calc(100vw - #{$pf-menu-width} - 30px); // Extra 20 pixels for scroll bar
+        width: calc(100vw - #{$pf-menu-width} - 22px); // Extra 20 pixels for scroll bar
     }
     
     .pf-menu-items {
