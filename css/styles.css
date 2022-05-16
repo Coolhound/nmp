@@ -10514,8 +10514,14 @@ fieldset:disabled .btn {
   }
 }
 
+/*
 body {
-  font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+} 
+*/
+.pf-menu {
+  position: fixed;
+  height: 100%;
 }
 
 .pf-j-logo {
@@ -10562,6 +10568,9 @@ body {
 @media (min-width: 992px) {
   .pf-hero-image {
     width: calc(100vw - 250px - 22px);
+  }
+  .pf-content {
+    margin-left: 250px;
   }
   .pf-menu-items {
     width: 250px;
