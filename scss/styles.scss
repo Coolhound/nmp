@@ -67,7 +67,9 @@ body {
 */
 
 .pf-link:hover {
-    color: $crimson-ua;
+    text-decoration-line: underline;
+    text-decoration-color: $crimson-ua;
+    text-decoration-thickness: 3px;
 }
 
 .pf-menu {

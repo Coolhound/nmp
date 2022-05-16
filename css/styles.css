@@ -10520,7 +10520,9 @@ body {
 } 
 */
 .pf-link:hover {
-  color: #991729ff;
+  text-decoration-line: underline;
+  text-decoration-color: #991729ff;
+  text-decoration-thickness: 3px;
 }
 
 .pf-menu {
