@@ -10519,6 +10519,10 @@ body {
     font-family: 'Oxygen', sans-serif;
 } 
 */
+.pf-link:hover {
+  color: #991729ff;
+}
+
 .pf-menu {
   position: fixed;
   height: 100%;

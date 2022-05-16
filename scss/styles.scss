@@ -52,11 +52,6 @@ $theme-colors: map-merge($theme-colors,
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-/*
-body {
-    font-family: 'Oxygen', sans-serif;
-} 
-*/
 
 // Then add additional custom code here
 
@@ -64,6 +59,16 @@ body {
 //$pf-menu-width: 15vw;
 //$pf-menu-width: 260px;
 $pf-menu-width: 250px;
+
+/*
+body {
+    font-family: 'Oxygen', sans-serif;
+} 
+*/
+
+.pf-link:hover {
+    color: $crimson-ua;
+}
 
 .pf-menu {
     //background-color: $custom-color ;
