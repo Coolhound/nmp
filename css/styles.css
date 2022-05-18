@@ -10548,6 +10548,12 @@ body {
 }
 
 .pf-hero-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.pf-hero-image-deep {
   width: calc(100vw - 20px);
   height: 100vh;
   object-fit: cover;
@@ -10581,6 +10587,9 @@ body {
 
 @media (min-width: 992px) {
   .pf-hero-image {
+    width: calc(100vw - 250px);
+  }
+  .pf-hero-image-deep {
     width: calc(100vw - 250px - 22px);
   }
   .pf-content {

@@ -96,6 +96,13 @@ body {
 }
 
 .pf-hero-image {
+    //width: calc(100vw - 20px); // Extra 20 pixels for scroll bar
+    width: 100vw;
+    height: 100vh;  
+    object-fit: cover;
+}
+
+.pf-hero-image-deep {
     width: calc(100vw - 20px); // Extra 20 pixels for scroll bar
     height: 100vh;  
     object-fit: cover;
@@ -135,11 +142,15 @@ body {
 
 @media (min-width: 992px) {
     .pf-hero-image {
-        //width: calc(100vw - #{$pf-menu-width} - 20px); // Extra 20 pixels for scroll bar
-        //width: calc(100vw - #{$pf-menu-width} - 30px); // Extra 20 pixels for scroll bar
-        width: calc(100vw - #{$pf-menu-width} - 22px); // Extra 20 pixels for scroll bar
+        width: calc(100vw - #{$pf-menu-width}) ; 
     }
     
+    .pf-hero-image-deep {
+        //width: calc(100vw - #{$pf-menu-width} - 20px); // Minus extra pixels for scroll bar
+        //width: calc(100vw - #{$pf-menu-width} - 30px); // Minus extra pixels for scroll bar
+        width: calc(100vw - #{$pf-menu-width} - 22px); // Minus extra pixels for scroll bar
+    }
+
     .pf-content {
         margin-left: #{$pf-menu-width};
     }
