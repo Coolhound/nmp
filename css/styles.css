@@ -10519,6 +10519,10 @@ body {
     font-family: 'Oxygen', sans-serif;
 } 
 */
+.pf-link {
+  color: white;
+}
+
 .pf-link:hover {
   text-decoration-line: underline;
   text-decoration-color: #991729ff;
