@@ -10523,6 +10523,10 @@ body {
   color: white;
 }
 
+.pf-link-dark {
+  color: black;
+}
+
 .pf-link:hover {
   text-decoration-line: underline;
   text-decoration-color: #991729ff;
