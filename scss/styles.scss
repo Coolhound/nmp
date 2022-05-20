@@ -68,16 +68,20 @@ body {
 
 .pf-link {
     color: white;
-}
 
-.pf-link-dark {
-    color: black;
-}
-
-.pf-link:hover {
+    &:hover {
     text-decoration-line: underline;
     text-decoration-color: $crimson-ua;
     text-decoration-thickness: 3px;
+    }
+
+    &-dark {
+        @extend .pf-link;
+        color: black;
+        &:hover {
+            text-decoration-color: black;   
+        }
+    }
 }
 
 .pf-menu {
@@ -100,7 +104,6 @@ body {
 }
 
 .pf-hero-image {
-    //width: calc(100vw - 20px); // Extra 20 pixels for scroll bar
     width: 100vw;
     height: 100vh;  
     object-fit: cover;

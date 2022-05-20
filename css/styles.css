@@ -10519,18 +10519,22 @@ body {
     font-family: 'Oxygen', sans-serif;
 } 
 */
-.pf-link {
+.pf-link, .pf-link-dark {
   color: white;
+}
+
+.pf-link:hover, .pf-link-dark:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #991729ff;
+  text-decoration-thickness: 3px;
 }
 
 .pf-link-dark {
   color: black;
 }
 
-.pf-link:hover {
-  text-decoration-line: underline;
-  text-decoration-color: #991729ff;
-  text-decoration-thickness: 3px;
+.pf-link-dark:hover {
+  text-decoration-color: black;
 }
 
 .pf-menu {
