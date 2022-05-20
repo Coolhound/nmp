@@ -139,11 +139,13 @@ body {
 
 @media (min-width: 768px) {
     .pf-portfolio-project-nettmatters {
-        width: 50%;
+        // width: 50%;
+        width: 99%;
     }
 
-    .pf-portfolio-project-java, .pf-portfolio-project-php {
-        width: 25%;
+    .pf-portfolio-project-java, .pf-portfolio-project-php { 
+        // width: 25%;
+        width: 49%;
     }
 }
 
@@ -168,11 +170,22 @@ body {
 
     .pf-portfolio-project-nettmatters {
         color: $primary ;
+        width: 99%;
+    }
+
+    .pf-portfolio-project-java, .pf-portfolio-project-php {
+        width: 49%;
     }
 }
 
 @media (min-width: 1200px) {
     .pf-portfolio-project-nettmatters {
         color: $dark;     
+        width: 50%;
     }
+
+    .pf-portfolio-project-java, .pf-portfolio-project-php { 
+        width: 25%;
+    }
+
 }
