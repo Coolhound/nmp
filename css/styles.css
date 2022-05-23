@@ -10585,7 +10585,7 @@ body {
 }
 
 @media (hover: none) {
-  .pf-hero-image {
+  .pf-hero-image-deep {
     width: 100vw;
   }
 }
@@ -10621,6 +10621,14 @@ body {
   }
 }
 
+/*
+// Disable scrol bar subtraction on Samsung A110, Android using Chrome
+@media (hover: none) and (min-width: 992px) {
+    .pf-hero-image {
+        width: 100vw; 
+    }
+}
+*/
 @media (min-width: 1200px) {
   .pf-portfolio-project-nettmatters {
     color: #361738;
