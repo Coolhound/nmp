@@ -10584,6 +10584,12 @@ body {
   background-color: #8892BF;
 }
 
+@media (hover: none) {
+  .pf-hero-image {
+    width: 100vw;
+  }
+}
+
 @media (min-width: 768px) {
   .pf-portfolio-project-nettmatters {
     width: 99%;

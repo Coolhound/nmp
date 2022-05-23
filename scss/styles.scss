@@ -39,11 +39,14 @@ $custom-color2:bisque;
 $custom-color3:#837465;
 $custom-color4:#749196;
 
-//$custom-color:#A48E99;
+$custom-color5:#A48E99;
+
 $custom-color:#C8637B;
 
 // Merge the maps
-//$theme-colors: map-merge($theme-colors, $custom-colors);
+
+//$theme-colors: map-merge($theme-colors, $custom-colors); not working v5.1.x, revert to v5.0.2
+
 $theme-colors: map-merge($theme-colors, 
 
     ( "custom-color": $custom-color, "crimson": $crimson-ua) 
@@ -135,6 +138,14 @@ body {
 .pf-portfolio-project-php {
     //background-color: #839b76; 
     background-color:#8892BF;
+}
+
+
+// Disable scrol bar subtraction on Samsung A110, Android using Chrome
+@media (hover: none) {
+    .pf-hero-image {
+        width: 100vw; 
+    }
 }
 
 @media (min-width: 768px) {
