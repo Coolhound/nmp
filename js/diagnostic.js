@@ -1,7 +1,7 @@
 // Helper for viewport width diagnostics
 
-//const outputStatus = false;
-const outputStatus = true;
+const outputStatus = false;
+//const outputStatus = true;
 
 const diagnosticContainer = document.querySelector("#diagnosticContainer");
 const diagnosticContent = document.querySelector(  "#diagnosticContent");
