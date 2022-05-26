@@ -58,6 +58,8 @@ $theme-colors: map-merge($theme-colors,
 
 // Then add additional custom code here
 
+@import "_diagnostics.scss";
+
 // Fix width of side menu on wider viewports
 //$pf-menu-width: 15vw;
 //$pf-menu-width: 260px;

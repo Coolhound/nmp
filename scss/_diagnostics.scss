@@ -1,0 +1,39 @@
+// Media Queries
+
+.pf-diagnostic {
+    &::after {
+        text-transform: uppercase;
+        content: "xs";
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .pf-diagnostic {
+        &::after {
+            content: "sm";
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .pf-diagnostic {
+        &::after {
+            content: "md";
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .pf-diagnostic {
+        &::after {
+            content: "lg";
+        }
+    }
+}
+@include media-breakpoint-up(xl) {
+    .pf-diagnostic {
+        &::after {
+            content: "xl";
+        }
+    }
+}

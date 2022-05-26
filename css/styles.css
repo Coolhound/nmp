@@ -10514,6 +10514,35 @@ fieldset:disabled .btn {
   }
 }
 
+.pf-diagnostic::after {
+  text-transform: uppercase;
+  content: "xs";
+}
+
+@media (min-width: 576px) {
+  .pf-diagnostic::after {
+    content: "sm";
+  }
+}
+
+@media (min-width: 768px) {
+  .pf-diagnostic::after {
+    content: "md";
+  }
+}
+
+@media (min-width: 992px) {
+  .pf-diagnostic::after {
+    content: "lg";
+  }
+}
+
+@media (min-width: 1200px) {
+  .pf-diagnostic::after {
+    content: "xl";
+  }
+}
+
 /*
 body {
     font-family: 'Oxygen', sans-serif;
