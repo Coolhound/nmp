@@ -1,21 +1,18 @@
 // Helper for viewport width diagnostics
 
-const outputStatus = false;
+//const outputStatus = false;
+const outputStatus = true;
 
 const diagnosticContainer = document.querySelector("#diagnosticContainer");
-const diagnosticContent = document.querySelector("#diagnosticContent");
+const diagnosticContent = document.querySelector(  "#diagnosticContent");
 
 
 if (outputStatus == true)
 {
-/*
-    diagnosticContent.innerHTML = 
-          "<span class='navbar-text'>Size: <span id='size'>XXL</span></span>" +
-          "<span class='navbar-text'>Width: <span id='width'>9999</span></span>" +
-          "<span class='navbar-text'>Height: <span id='height'>9999</span></span>";
-*/
-    diagnosticContainer.style.display = "block";
-/*
+    diagnosticContent.innerHTML = "<span class='navbar-text'>Size: <span id='size'>XXL</span></span>" +
+                                  "<span class='navbar-text'>Width: <span id='width'>9999</span></span>" +
+                                  "<span class='navbar-text'>Height: <span id='height'>9999</span></span>";
+
     const sizeOutput = document.querySelector("#size");
     const heightOutput = document.querySelector("#height");
     const widthOutput = document.querySelector("#width");
@@ -41,7 +38,7 @@ if (outputStatus == true)
     window.onload = function() {
         resizeListener();
     }
-*/
+
 }
 else
 {
