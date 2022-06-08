@@ -15,8 +15,9 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/1a26efe96e.js" crossorigin="anonymous"></script> 
     
-    <!-- Normalize.css -->
+    <!-- Normalize.css 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+    -->
 
     <title>Portfolio</title>
 
@@ -78,6 +79,33 @@
                                         
                 </div>
             </div>
+
+            <!-- Flex child items test -->
+            <div class="m-2">
+
+                <div class="d-flex flex-column">
+                    <p id="nm-item-one" style="order: 0;">One</p> 
+                    <p id="nm-item-two" style="order: 1;">Two</p> 
+                    <p id="nm-item-three" style="order: 2;">Three</p> 
+                </div>
+
+                <div class="nm-partners-deep d-flex flex-row gap-1" id="nm-items">
+                    <img class="img-fluid" src="images/future-50.jpg" style="order: 0;">
+                    <img class="img-fluid" src="images/google-partner.jpg" style="order: 1;">
+                    <img class="img-fluid" src="images/investing-in-future-growth.jpg" style="order: 2;">
+                    <img class="img-fluid" src="images/norfolk-carbon-charter.jpg" style="order: 3;">
+                    <img class="img-fluid" src="images/PPC_logo.jpg" style="order: 4;">
+                    <img class="img-fluid" src="images/princess-royal-training.jpg" style="order: 5;">
+                    <img class="img-fluid" src="images/qms.jpg" style="order: 6;">
+                    <img class="img-fluid" src="images/skills-of-tomorrow.jpg" style="order: 7;">
+                </div>    
+  
+                <btn class="btn btn-crimson" id="nm-my-btn"> Click Me! </btn>
+   
+            </div>
+
+
+
 
             <a id="my-portfolio"></a>
             <!-- 
@@ -181,6 +209,26 @@
         </div>
 
     </div>
+    
+    <script>
+        document.getElementById("nm-my-btn").onclick = function() {myFunction()};
+        
+        function myFunction() {
+          // alert ( "clicked......");
+          let items = document.getElementById("nm-items");
+          let count = 0;
+          while ( count < items.children.length ) {
+            let item = items.children[count];
+            item.style.order = String(Number(item.style.order) + 1);
+            if (item.style.order == items.children.length )
+            {
+                item.style.order = "0";
+            }
+            count++;
+          }
+          //const items = document.getElementById("nm-items").style.order = "3";
+        }
+    </script>
 
     <script type="module" defer src="js/diagnostic.js"></script>
     <!-- 

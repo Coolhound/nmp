@@ -120,6 +120,14 @@ body {
     object-fit: cover;
 }
 
+//.nm_partners {
+//    width: 100vw;
+//}
+
+.nm-partners-deep {
+    width: calc(100vw - 20px); // Extra 20 pixels for scroll bar
+ }
+
 .pf-portfolio-projects {
     gap: 10px;
 }
@@ -142,6 +150,15 @@ body {
     background-color:#8892BF;
 }
 
+.pf-card {
+    margin-top: 20px;
+    transition: margin-top 0.5s;
+    transition-timing-function: ease;
+}
+
+.pf-card:hover {
+    margin-top: 10px;
+}
 
 // Disable scrol bar subtraction on Samsung A110, Android using Chrome
 @media (hover: none) {
@@ -173,6 +190,11 @@ body {
         //width: calc(100vw - #{$pf-menu-width} - 30px); // Minus extra pixels for scroll bar
         width: calc(100vw - #{$pf-menu-width} - 22px); // Minus extra pixels for scroll bar
     }
+
+    // nm partners deep
+    .nm-partners-deep {
+        width: calc(100vw - #{$pf-menu-width} - 22px); // Minus extra pixels for scroll bar
+     }
 
     .pf-content {
         margin-left: #{$pf-menu-width};

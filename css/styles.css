@@ -10596,6 +10596,10 @@ body {
   object-fit: cover;
 }
 
+.nm-partners-deep {
+  width: calc(100vw - 20px);
+}
+
 .pf-portfolio-projects {
   gap: 10px;
 }
@@ -10611,6 +10615,16 @@ body {
 
 .pf-portfolio-project-php {
   background-color: #8892BF;
+}
+
+.pf-card {
+  margin-top: 20px;
+  transition: margin-top 0.5s;
+  transition-timing-function: ease;
+}
+
+.pf-card:hover {
+  margin-top: 10px;
 }
 
 @media (hover: none) {
@@ -10633,6 +10647,9 @@ body {
     width: calc(100vw - 250px);
   }
   .pf-hero-image-deep {
+    width: calc(100vw - 250px - 22px);
+  }
+  .nm-partners-deep {
     width: calc(100vw - 250px - 22px);
   }
   .pf-content {
