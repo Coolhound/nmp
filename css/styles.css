@@ -10596,6 +10596,11 @@ body {
   object-fit: cover;
 }
 
+/*
+.nm_partners {
+    width: 100vw;
+}
+*/
 .nm-partners-deep {
   width: calc(100vw - 20px);
 }
@@ -10649,6 +10654,7 @@ body {
   .pf-hero-image-deep {
     width: calc(100vw - 250px - 22px);
   }
+  /* nm partners deep */
   .nm-partners-deep {
     width: calc(100vw - 250px - 22px);
   }

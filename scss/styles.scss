@@ -120,9 +120,11 @@ body {
     object-fit: cover;
 }
 
-//.nm_partners {
-//    width: 100vw;
-//}
+/*
+.nm_partners {
+    width: 100vw;
+}
+*/
 
 .nm-partners-deep {
     width: calc(100vw - 20px); // Extra 20 pixels for scroll bar
@@ -191,7 +193,7 @@ body {
         width: calc(100vw - #{$pf-menu-width} - 22px); // Minus extra pixels for scroll bar
     }
 
-    // nm partners deep
+    /* nm partners deep */
     .nm-partners-deep {
         width: calc(100vw - #{$pf-menu-width} - 22px); // Minus extra pixels for scroll bar
      }
