@@ -81,6 +81,7 @@
             </div>
 
             <!-- Flex child items test -->
+            <!--
             <div class="nm-partners-deep">
             
                 <div class="d-flex flex-column" style="">
@@ -90,12 +91,14 @@
                 </div>
 
                 <div class="d-flex flex-row align-items-center" id="nm-items" style="overflow: hidden;">
+                -->
                     <!-- 
                     <img class="img-fluid" src="images/future-50.jpg" style="order: 0; transition-property: all; transition-duration: 0.5s; transition-delay: 0s;"> 
                     <img class="img-fluid" src="images/future-50.jpg" style="order: 0; transition-property: height; transition-duration: 2s; transition-delay: 0s;">
                     <img class="img-fluid" src="images/future-50.jpg" style="order: 0; transition-property: visibility; transition-duration: 2s; transition-delay: 0s;">
                     -->
-                    <img class="img-fluid" src="images/future-50.jpg" style="order: 0; transition: visibility 2s ease 2s;">
+                <!--
+                    <img class="img-fluid" src="images/future-50.jpg" style="order: 0; transition: visibility 2s ease 2s;" id="nm-future-50-evt">
                     <img class="img-fluid" src="images/google-partner.jpg" style="order: 1;">
                     <img class="img-fluid" src="images/investing-in-future-growth.jpg" style="order: 2;">
                     <img class="img-fluid" src="images/norfolk-carbon-charter.jpg" style="order: 3;">
@@ -111,7 +114,7 @@
                 <button class="btn btn-crimson" name="button" type="button" id="nm-my-btn" > Click Me! </button>
 
             </div>
-
+            -->   
             <a id="my-portfolio"></a>
             <!-- 
             <div class="pf-portfolio-projects d-flex flex-column flex-md-row m-2"> 
@@ -216,6 +219,13 @@
     </div>
     
     <script>
+
+        document.getElementById("nm-future-50-evt").addEventListener("transitionrun", signalStart, true);
+        document.getElementById("nm-future-50-evt").addEventListener("transitionstart", signalStart, true);
+
+        //function modifyText() {
+        
+        
         document.getElementById("nm-my-btn").onclick = function() {myFunction()};
         
         function myFunction() {
